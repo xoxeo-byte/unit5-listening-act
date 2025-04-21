@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vocabulary Matching Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #2a5d84;
+    }
+    .definition {
+      margin-bottom: 15px;
+    }
+    select {
+      margin-top: 5px;
+      width: 220px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    #score {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Match the Vocabulary Word to the Definition</h2>
+
+  <form id="vocabForm">
+
+    <div class="definition">
+      1. Organisms that eat both plants and animals.<br>
+      <select name="q1">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      2. A group of organisms in a food chain that occupy the same position.<br>
+      <select name="q2">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      3. Organisms that break down dead material and recycle nutrients.<br>
+      <select name="q3">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      4. Microscopic plants in aquatic environments that produce their own food.<br>
+      <select name="q4">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      5. Organisms that must consume other organisms for energy.<br>
+      <select name="q5">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      6. The total mass of living matter at a trophic level.<br>
+      <select name="q6">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      7. An animal that primarily eats meat.<br>
+      <select name="q7">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      8. Organisms that can produce their own food using sunlight or chemical energy.<br>
+      <select name="q8">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      9. A process that brings nutrients to the surface of the ocean.<br>
+      <select name="q9">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <div class="definition">
+      10. Organisms that eat plants.<br>
+      <select name="q10">
+        <option value="">-- Select --</option>
+        <option value="Trophic Level">Trophic Level</option>
+        <option value="Autotroph">Autotroph</option>
+        <option value="Heterotroph">Heterotroph</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Decomposer">Decomposer</option>
+        <option value="Biomass">Biomass</option>
+        <option value="Phytoplankton">Phytoplankton</option>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Upswelling">Upswelling</option>
+      </select>
+    </div>
+
+    <button type="button" onclick="checkAnswers()">Submit</button>
+
+  </form>
+
+  <div id="score"></div>
+
+  <script>
+    function checkAnswers() {
+      const correctAnswers = [
+        "Omnivore",
+        "Trophic Level",
+        "Decomposer",
+        "Phytoplankton",
+        "Heterotroph",
+        "Biomass",
+        "Carnivore",
+        "Autotroph",
+        "Upswelling",
+        "Consumer"
+      ];
+
+      let form = document.forms["vocabForm"];
+      let score = 0;
+
+      for (let i = 0; i < correctAnswers.length; i++) {
+        let selected = form["q" + (i + 1)].value;
+        if (selected === correctAnswers[i]) {
+          score++;
+        }
+      }
+
+      document.getElementById("score").innerText = `You got ${score} out of 10 correct.`;
+    }
+  </script>
+
+</body>
+</html>
